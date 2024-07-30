@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1273E512C324BFE008C32D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1273E502C324BFE008C32D9 /* main.cpp */; };
+		A1273E602C324C61008C32D9 /* 01checkpointmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1273E572C324C61008C32D9 /* 01checkpointmain.cpp */; };
+		A1273E612C324C61008C32D9 /* Bowler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1273E5C2C324C61008C32D9 /* Bowler.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,15 @@
 
 /* Begin PBXFileReference section */
 		A1273E4D2C324BFE008C32D9 /* Checkpoint01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Checkpoint01; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1273E502C324BFE008C32D9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A1273E572C324C61008C32D9 /* 01checkpointmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 01checkpointmain.cpp; sourceTree = "<group>"; };
+		A1273E582C324C61008C32D9 /* sterner.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sterner.txt; sourceTree = "<group>"; };
+		A1273E592C324C61008C32D9 /* abigail.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = abigail.txt; sourceTree = "<group>"; };
+		A1273E5A2C324C61008C32D9 /* russo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = russo.txt; sourceTree = "<group>"; };
+		A1273E5B2C324C61008C32D9 /* tackett.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tackett.txt; sourceTree = "<group>"; };
+		A1273E5C2C324C61008C32D9 /* Bowler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bowler.cpp; sourceTree = "<group>"; };
+		A1273E5D2C324C61008C32D9 /* bolleby.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bolleby.txt; sourceTree = "<group>"; };
+		A1273E5E2C324C61008C32D9 /* butturff.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = butturff.txt; sourceTree = "<group>"; };
+		A1273E5F2C324C61008C32D9 /* Bowler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bowler.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +66,15 @@
 		A1273E4F2C324BFE008C32D9 /* Checkpoint01 */ = {
 			isa = PBXGroup;
 			children = (
-				A1273E502C324BFE008C32D9 /* main.cpp */,
+				A1273E572C324C61008C32D9 /* 01checkpointmain.cpp */,
+				A1273E592C324C61008C32D9 /* abigail.txt */,
+				A1273E5D2C324C61008C32D9 /* bolleby.txt */,
+				A1273E5C2C324C61008C32D9 /* Bowler.cpp */,
+				A1273E5F2C324C61008C32D9 /* Bowler.h */,
+				A1273E5E2C324C61008C32D9 /* butturff.txt */,
+				A1273E5A2C324C61008C32D9 /* russo.txt */,
+				A1273E582C324C61008C32D9 /* sterner.txt */,
+				A1273E5B2C324C61008C32D9 /* tackett.txt */,
 			);
 			path = Checkpoint01;
 			sourceTree = "<group>";
@@ -119,7 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1273E512C324BFE008C32D9 /* main.cpp in Sources */,
+				A1273E612C324C61008C32D9 /* Bowler.cpp in Sources */,
+				A1273E602C324C61008C32D9 /* 01checkpointmain.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
